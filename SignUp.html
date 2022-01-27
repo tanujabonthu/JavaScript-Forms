@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>gentim</title>
+    <link rel="stylesheet" type="text/css" href="genorginal.css">
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="slick-theme.css"/>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="main.js"></script>
+
+</head>
+
+<body id="overall-body">
+    <div class="bg-img">
+        <div class="wrapper">
+            <p class="gentium">Gentium</p>
+            <div class="loginform">
+                <form class="form">
+
+                    <div class="p">
+                        UserName: <input type="text" class="input" id="username" placeholder="Please enter username"   onfocusout="validateform1()">
+                    <div id="div1"></div>
+                    </div><br>
+                    <div class="p">
+                        Password: <input type="password" class="input" id="password" placeholder="please enter password" onfocus="passwordrule()" onfocusout="validateform2()">
+                <div id="div2"></div>
+                <div id="div5"></div>
+                    </div><br>
+                <div class="p">
+                    Confirm Password: <input type="password" class="input" id="Cpassword" placeholder="re-enter password"  onfocusout="validateform3()">
+                <div id="div3"></div>
+                </div><br>
+                <div class="p">
+                    Mail: <input type="mail" placeholder="abc@mail.com" class="input"  id="email"  onfocusout="validateform4()">
+                <div id="div4"></div>
+                </div><br>
+                    <div class="p">
+                        DOB: <input type="date" class="input"  id="dob">
+                    
+                    </div><br><br>
+                    <button class="btn" id="login" onclick="finalcheck()">Register</button>
+                    
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
